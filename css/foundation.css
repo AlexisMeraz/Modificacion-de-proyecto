@@ -4747,7 +4747,7 @@ select {
     color: #0a0a0a; }
     .pagination a:hover,
     .pagination button:hover {
-      background: #e6e6e6; }
+      background:#746b6b; }
   .pagination .current {
     padding: 0.1875rem 0.625rem;
     background: #1779ba;
@@ -4762,7 +4762,7 @@ select {
   .pagination .ellipsis::after {
     padding: 0.1875rem 0.625rem;
     content: '\2026';
-    color: #0a0a0a; }
+    color: white; }
 
 .pagination-previous a::before,
 .pagination-previous.disabled::before {
