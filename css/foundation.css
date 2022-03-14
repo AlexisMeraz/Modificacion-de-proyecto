@@ -4747,7 +4747,7 @@ select {
     color: #0a0a0a; }
     .pagination a:hover,
     .pagination button:hover {
-      background: #e6e6e6; }
+      background:#746b6b; }
   .pagination .current {
     padding: 0.1875rem 0.625rem;
     background: #1779ba;
