@@ -1,0 +1,35 @@
+body {
+  background-color: #c0b283;
+}
+
+.menu-text {
+  color: #f4f4f4;
+}
+
+.menu-text li {
+  color: #c0b283;
+}
+
+.top-bar ul {
+  background-color: #c0b283;
+}
+
+.top-bar a {
+  line-height: inherit;
+  color: #f4f4f4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.top-bar a:hover {
+  color: brown;
+}
+
+.top-bar a img {
+  border: 0;
+}
+
+.callout {
+  background-color: #c0b283;
+}
+/*# sourceMappingURL=style.css.map */

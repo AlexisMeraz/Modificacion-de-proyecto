@@ -5,6 +5,7 @@
  * https://get.foundation
  * Licensed under MIT Open Source
  */
+ @import "style.scss";
 @media print, screen and (min-width: 40em) {
   .reveal, .reveal.tiny, .reveal.small, .reveal.large {
     right: auto;
@@ -188,7 +189,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #fefefe;
+  background: colorprincipal;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
@@ -2270,15 +2271,7 @@ h6, .h6 {
   h6, .h6 {
     font-size: 1rem; } }
 
-a {
-  line-height: inherit;
-  color: #1779ba;
-  text-decoration: none;
-  cursor: pointer; }
-  a:hover, a:focus {
-    color: #1468a0; }
-  a img {
-    border: 0; }
+
 
 hr {
   clear: both;
@@ -3393,7 +3386,7 @@ select {
   padding: 1rem;
   border: 1px solid rgba(10, 10, 10, 0.25);
   border-radius: 0;
-  background-color: white;
+  
   color: #0a0a0a; }
   .callout > :first-child {
     margin-top: 0; }
@@ -3700,7 +3693,7 @@ select {
     padding: 0.7rem 1rem;
     font-weight: bold;
     line-height: 1;
-    color: inherit; }
+  }
 
 .menu-centered > .menu {
   -webkit-box-pack: center;
@@ -5445,9 +5438,8 @@ a.thumbnail {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
-  .top-bar,
-  .top-bar ul {
-    background-color:#c0b283; }
+  
+ 
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }

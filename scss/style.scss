@@ -1,0 +1,36 @@
+@import "variables";
+body{
+background-color: $colornav;
+
+}
+.menu-text{
+    color: $colorblanco;
+li{
+color: $colornav;
+
+
+}
+
+
+}
+
+.top-bar{
+   
+     ul{
+    
+    background-color:$colornav; }
+    a {
+        line-height: inherit;
+        color: $colorblanco;
+        text-decoration: none;
+        cursor: pointer; }
+        a:hover  {
+          color: $colorcafe; }
+        a img {
+          border: 0; }
+        }
+        .callout{
+            background-color: $colorprincipal;
+
+
+        }
